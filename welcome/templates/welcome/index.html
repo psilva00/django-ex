@@ -212,11 +212,9 @@ pre {
 
 <section class='container'>
     <hgroup>
-      <h1>Welcome to your Django application on OpenShift</h1>
+      <!--<h1>Welcome to your Django application on OpenShift</h1>-->
+      <h1>Filmes do <a href='http://www.imdb.com/chart/top?ref_=ft_250'>top 250</a> do IMDb que v&atilde;o dar na TV esta semana:</h1>
     </hgroup>
-    <div class="row">
-     <h1>Filmes do <a href='http://www.imdb.com/chart/top?ref_=ft_250'>top 250</a> do IMDb que v&atilde;o dar na TV esta semana:</h1>
-   </div>
     {% if movies %}
       {% for ranking, movie, airtime in movies %}
         <div class="row">
